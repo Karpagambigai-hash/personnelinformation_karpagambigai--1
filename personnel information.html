@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+    <link rel="stylesheet" href="personnel information.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Personal Information Form</h1>
+
+    <form id="infoForm">
+        <label>Full Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" id="phone" required>
+
+        <label>Gender</label>
+        <select id="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <label>Address</label>
+        <textarea id="address"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+</div>
+
+<script src="personnel information.js"></script>
+
+</body>
+</html>
